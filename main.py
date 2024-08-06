@@ -13,6 +13,7 @@ api = Api(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///inshorts.db'
 app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY', 'super-secret')
 db = SQLAlchemy(app)
+# db.create_all()
 migrate = Migrate(app, db)
 jwt = JWTManager(app)
 
@@ -191,6 +192,4 @@ api.add_resource(ShortsFeed, "/api/shorts/feed")
 api.add_resource(FilterShorts, "/api/shorts/filter")
 
 if __name__ == "__main__":
-    with app.app_context():
-        db.create_all() 
     app.run(debug=True)
