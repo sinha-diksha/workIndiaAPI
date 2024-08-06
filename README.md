@@ -57,7 +57,7 @@ This will create the SQLite database and set up the required tables.
 4. migrations/: Contains the migration files for setting up the database schema.
 5. inshorts.db: The SQLite database file that gets created after running the application.
    
-Important Notes
+#Important Notes
 1. Run the Server First: Make sure that the Flask server (main.py) is running before you execute the test script (test.py).
 2. JWT Authentication: The API uses JWT for secure authentication. Be sure that your environment variables, particularly the JWT secret key, are set correctly.
 3. Also, once you have used 'db.create_all()' command, make sure to remove or comment it so that database is not overwritten everytime. When you start the flask application, run it only for the first time.
