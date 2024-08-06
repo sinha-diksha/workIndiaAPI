@@ -1,4 +1,4 @@
-*InShorts*
+**InShort**
 
 #Overview
 This project is a simple API inspired by the InShorts platform. It allows users to register, log in, and read news summaries, called "shorts." Admin users can add new shorts, while regular users can view and filter them. The API is built with Flask, using JWT for secure authentication and role-based access control.
