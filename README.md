@@ -25,12 +25,12 @@ Before you begin, make sure you have the following installed:
 3. Make sure python3 is installed in your local machine
    
 4. Install the Required Packages
-    Install the necessary Python packages:
+    Install the necessary Python packages: <br/>
     pip install -r requirements.txt
    
 5. Set Up Environment Variables
-    Create a .env file in the project directory to store environment variables. For example:
-    JWT_SECRET_KEY=<your_jwt_secret_key_here>
+    Create a .env file in the project directory to store environment variables. For example: ,br/>
+    JWT_SECRET_KEY=<your_jwt_secret_key_here> <br/>
     Replace your_jwt_secret_key_here with a strong secret key of your choice. This key is used for JWT token generation.
 
 6. Initialize the Database
