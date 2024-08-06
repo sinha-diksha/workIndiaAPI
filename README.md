@@ -19,7 +19,7 @@ Before you begin, make sure you have the following installed:
 **Setup Instructions**
 1. Clone the Repository
   First, you'll need to clone the project repository to your local machine:
-  a) git clone https://github.com/sinha-diksha/workIndiaAPI.git
+  a) git clone https://github.com/sinha-diksha/workIndiaAPI.git <br/>
   b) cd workIndiaAPI
 
 3. Make sure python3 is installed in your local machine
